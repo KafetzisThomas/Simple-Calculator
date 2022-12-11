@@ -5,24 +5,24 @@
 # Author / Project Owner: KafetzisThomas (https://github.com/KafetzisThomas)
 
 def calculate():
-    a = float(input("Write the first number: "))
+    a = float(input("\nWrite the first number: "))
     b = float(input("Write the second number: "))
-    c = str(input("Write the symbol: "))
+    c = str(input("Write a symbol (+,-,*,/): "))
 
     if c == "+":
         d = a + b
-        print("Result: {}".format(d))
+        print(f"Result: {d}")
     elif c == "-":
         d = a - b
-        print("Result: {}".format(d))
+        print(f"Result: {d}")
     elif c == "*":
         d = a * b
-        print("Result: {}".format(d))
+        print(f"Result: {d}")
     elif c == "/":
         d = a / b
-        print("Result: {}".format(d))
+        print(f"Result: {d}")
     else:
-        print("Undefined symbol. Try Again!")
+        print("Undefined symbol. Try Again.")
         calculate()
 
 calculate()
