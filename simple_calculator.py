@@ -11,16 +11,16 @@ def calculate():
 
     if c == "+":
         d = a + b
-        print("Resault: {}".format(d))
+        print("Result: {}".format(d))
     elif c == "-":
         d = a - b
-        print("Resault: {}".format(d))
+        print("Result: {}".format(d))
     elif c == "*":
         d = a * b
-        print("Resault: {}".format(d))
+        print("Result: {}".format(d))
     elif c == "/":
         d = a / b
-        print("Resault: {}".format(d))
+        print("Result: {}".format(d))
     else:
         print("Undefined symbol. Try Again!")
         calculate()
